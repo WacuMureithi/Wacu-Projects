@@ -1,0 +1,63 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.weatherApp {
+  max-width: 850px;
+  padding: 12px;
+  margin: 10px auto;
+  background-color: #e0eff3;
+  border: #7c7c7c solid 1px;
+  border-radius: 10px;
+}
+
+.row {
+  padding: 24px;
+  margin: 10px auto;
+}
+
+.largeIcon {
+  width: 100px;
+}
+
+.iconTemp {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  line-height: 20px;
+}
+
+.datePlace {
+  margin: 0 auto;
+  text-align: right;
+  line-height: 20px;
+}
+
+h1 {
+  color: black;
+  line-height: 14px;
+  font-size: 30px;
+  text-align: right;
+}
+
+.temp {
+  font-size: 51px;
+  color: black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+li {
+  font-size: 14px;
+  color: grey;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+button {
+  width: 110px;
+}

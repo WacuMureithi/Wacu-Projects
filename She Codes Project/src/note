@@ -1,0 +1,22 @@
+//convert to Farenheit
+function tempFarenheit(click){
+click.preventDefault();
+
+let farenheitTemp = document.querySelector("#display-temp");
+let convertedTemp = (("#display-temp"*9/5) + 32);
+farenheitTemp.innerHTML = convertedTemp;
+}
+let convertFarenheit = document.querySelector("#tempF");
+convertFarenheit.addEventListener("click", tempFarenheit)
+//convert to Celcius
+function tempCelcius(click) {
+  click.preventDefault();
+
+  let celciusTemp = document.querySelector("#display-temp");
+  let convertedTempC = "#display-temp"
+  celciusTemp.innerHTML = convertedTempC;
+}
+let convertCelcius = document.querySelector("#tempC");
+convertCelcius.addEventListener("click", tempCelcius);
+
+ 
